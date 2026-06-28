@@ -1,0 +1,57 @@
+.money {
+  max-width: var(--container-max);
+  margin: 0 auto;
+}
+
+.money > h1 {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 5vw, 2.5rem);
+  font-weight: 900;
+  margin-bottom: var(--spacing-sm);
+  color: var(--text-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 3px solid var(--accent-green);
+  padding-bottom: var(--spacing-sm);
+}
+
+.money-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-lg);
+}
+
+.money-grid .card-custom {
+  text-align: center;
+  border-top: 4px solid var(--accent-green);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.money-grid .card-custom:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+.money-grid .card-custom h3 {
+  font-size: 1.5rem;
+  color: var(--accent-green);
+}
+
+.money-grid .card-custom p {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+@media (max-width: 768px) {
+  .money-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .money-grid {
+    grid-template-columns: 1fr;
+  }
+}
