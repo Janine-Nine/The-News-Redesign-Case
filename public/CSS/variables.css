@@ -1,0 +1,46 @@
+:root {
+  /* Colors */
+  --primary: #0F172A;
+  --primary-light: #1E293B;
+  --secondary: #2563EB;
+
+  --success: #22C55E;
+  --danger: #EF4444;
+  --warning: #F59E0B;
+
+  --background: #F5F7FA;
+  --card: #FFFFFF;
+  --border: #E5E7EB;
+
+  --text: #111827;
+  --text-light: #6B7280;
+  --white: #FFFFFF;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(0,0,0,.08);
+  --shadow-md: 0 5px 18px rgba(0,0,0,.12);
+  --shadow-xs: 0 1px 4px rgba(15,23,42,.08);
+  --shadow-lg: 0 18px 45px rgba(15,23,42,.16);
+
+  /* Radius */
+  --radius: 12px;
+  --radius-lg: 20px;
+
+  /* Spacing */
+  --xs: .25rem;
+  --sm: .5rem;
+  --md: 1rem;
+  --lg: 1.5rem;
+  --xl: 2rem;
+  --container: 1180px;
+  --section-padding: 88px;
+
+  /* Transition */
+  --transition: .3s ease;
+
+  /* Font */
+  --font: "Inter", sans-serif;
+  --gradient-primary: linear-gradient(135deg, #0F172A, #2563EB);
+  --gradient-travel: linear-gradient(135deg, #0369A1, #14B8A6);
+  --gradient-card: linear-gradient(180deg, #FFFFFF, #F8FAFC);
+}

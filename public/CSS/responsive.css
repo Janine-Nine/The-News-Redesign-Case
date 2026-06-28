@@ -1,0 +1,68 @@
+/* TABLET */
+@media (max-width: 768px) {
+
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .news-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .destinations {
+    grid-template-columns: 1fr;
+  }
+
+  .investments {
+    grid-template-columns: 1fr;
+  }
+
+  .header-container {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 12px 0;
+    gap: 10px;
+  }
+
+  .menu {
+    order: 3;
+    width: 100%;
+    overflow-x: auto;
+    justify-content: flex-start;
+    padding-bottom: 4px;
+  }
+
+  .page {
+    padding-top: 130px;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .travel-banner {
+    padding: 30px;
+  }
+
+  .travel-banner h1 {
+    font-size: 2rem;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 480px) {
+
+  .logo h2 {
+    font-size: 1.1rem;
+  }
+
+  .header button {
+    padding: 8px 14px;
+    font-size: .9rem;
+  }
+
+  .profile img {
+    width: 36px;
+    height: 36px;
+  }
+}
